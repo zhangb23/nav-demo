@@ -7,7 +7,16 @@ body{
     background-color: #ddd;
 	background-image: url(./alum.png);
 }
-main{text-align: center; display: flex; justify-content: center; align-items: center; height: 100vh;text-transform: uppercase; }
+main{
+	text-align: center; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	height: 100vh;
+	text-transform: uppercase;
+    width: 1231px;
+    margin: 0 auto;
+}
 #main{display: inline-block;; }
 #main> div:nth-child(1)> kbd:nth-child(14){	
 	width: 120px;
