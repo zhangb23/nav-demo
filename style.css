@@ -1,0 +1,117 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+kbd{width:4em; height: 4em; display: inline-block; position: relative; }
+kbd > button{position: absolute; right: 0; bottom: 0; display: none; }
+kbd:hover > button{display: inline-block; }
+body{
+    background-color: #ddd;
+	background-image: url(./alum.png);
+}
+main{text-align: center; display: flex; justify-content: center; align-items: center; height: 100vh;text-transform: uppercase; }
+#main{display: inline-block;; }
+#main> div:nth-child(1)> kbd:nth-child(14){	
+	width: 120px;
+	text-transform:none;
+	font-size: 16px;
+}
+#main> div:nth-child(1)> kbd:nth-child(14) .text{
+	right: -50px;
+}
+#main> div:nth-child(2)> kbd:nth-child(1){
+	width: 120px;
+	text-transform:none;
+	font-size: 16px;
+}
+#main> div:nth-child(3)> kbd:nth-child(1){
+	width: 138px;
+	text-transform:none;
+	font-size: 16px;
+}
+#main> div:nth-child(3)> kbd:nth-child(13){
+	width: 136px;
+	text-transform:none;
+	font-size: 16px;
+}
+#main> div:nth-child(3)> kbd:nth-child(13) .text{
+	right: -68px;
+}
+#main> div:nth-child(4)> kbd:nth-child(1){
+	width: 178px;
+	text-transform:none;
+	font-size: 16px;
+}
+#main> div:nth-child(4)> kbd:nth-child(12){
+	width: 179px;
+	text-transform:none;
+	font-size: 16px;
+}
+#main> div:nth-child(4)> kbd:nth-child(12) .text{
+	right: -114px;
+}
+#main> div:nth-child(5)> .key{
+	text-transform: none;
+	padding: 10px 0 0 0;
+	font-size: 16px;
+}
+#main> div:nth-child(5)> kbd:nth-child(4){
+	width: 95px;
+}
+#main> div:nth-child(5)> kbd:nth-child(5){
+	width: 403px;
+}
+#main> div:nth-child(5)> kbd:nth-child(6){
+	width: 95px;
+}
+#main> div:nth-child(5)> kbd:nth-child(6) .text{
+	right: -6px;
+
+}
+#main> div:nth-child(5)> kbd:nth-child(7) .text{
+	right: -6px;
+}
+#main> div:nth-child(5)> kbd:nth-child(8){
+	height: 28px;
+	font-size: 20px;
+}
+#main> div:nth-child(5)> kbd:nth-child(8) .text{
+	left: 26px; top: -16px;
+}
+#main> div:nth-child(5)> kbd:nth-child(9){
+	height: 28px;
+	border-radius: 0 0 8px 8px;
+	font-size: 20px;
+}
+#main> div:nth-child(5)> kbd:nth-child(9) .text{
+	left: 30px; top: -18px;
+}
+#main> div:nth-child(5)> kbd:nth-child(10){
+	height: 28px;
+	font-size: 20px;
+}
+#main> div:nth-child(5)> kbd:nth-child(10) .text{
+	left: 26px; top: -16px;
+}
+#main> div:nth-child(6)> kbd{
+	height: 38px;
+	left: 481px;
+	top:-90px;
+	border-radius: 8px 8px 0 0;
+	font-size: 20px;
+}
+#main> div:nth-child(6)> kbd .text{
+	left: 30px; top: -18px;
+}
+.key{
+	width: 71px;
+	height: 69px;
+	border-radius: 8px;
+	line-height: 69px;
+	margin: 4px 6px;
+	background-color: #000;
+	color: #fff;
+	font-family: keyboard, "Arial Rounded", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.key img{width: 16px; height: 16px; position: absolute; left: 8px; bottom: 8px;}
+.key .text{position: absolute;left: 8px; top: -12px;}
